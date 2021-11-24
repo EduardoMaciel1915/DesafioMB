@@ -1,0 +1,35 @@
+:root{
+  --orange:#ffa500;
+}
+
+.home{
+    width:100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+    background: url('/src/images/fundo4.jpg') center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor:default;
+  }
+  
+  .home .content{
+    text-align: center;
+  }
+  
+  .home .content h3{
+    font-size: 4.5rem;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
+  }
+  
+  .home .content p{
+    font-size: 2.5rem;
+    color:#fff;
+    padding:.5rem 0;
+  }
+  
