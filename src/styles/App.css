@@ -2,130 +2,80 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 @import url('https://unpkg.com/swiper/swiper-bundle.min.css');
 
-:root{
-  --orange:#ffa500;
-}
-
 *{
   font-family: 'Nunito', sans-serif;
-  margin:0; padding:0;
-  box-sizing: border-box;
-  outline: none; border:none;
+  margin:0;
   text-decoration: none;
   transition: all .2s linear;
+  font-size: 62.5%;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  background:#ffa500;
+  color:#fff;
+  padding:.8rem 3rem;
+  border:.2rem solid #ffa500;
+  cursor: pointer;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+}
+  
+.btn:hover{
+  background:rgba(255, 165, 0,.2);
+  color:#ffa500;
+}
+
+.titulos{
+  text-align: center;
+  padding:2.5rem 0;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+
+
+section{
+  padding:2rem 9%;
+}
+
+@media (max-width:1200px){
+
+  html{
+    font-size: 55%;
+  }
   
 }
 
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-padding-top: 6rem;
-    scroll-behavior: smooth;
+@media (max-width:768px){
+
+  #menu-bar{
+    display: initial;
   }
 
-  .btn{
-    display: inline-block;
-    margin-top: 1rem;
-    background:var(--orange);
-    color:#fff;
-    padding:.8rem 3rem;
-    border:.2rem solid var(--orange);
-    cursor: pointer;
-    font-size: 1.7rem;
-    border-radius: 0.5rem;
-  }
-  
-  .btn:hover{
-    background:rgba(255, 165, 0,.2);
-    color:var(--orange);
+  header .navbar{
+    position: fixed;
+    top:100%; 
+    right:0; 
+    left: 0;
+    background: #333;
+    border-top: .1rem solid rgba(255,255,255,.2);
+    padding:1rem 2rem;
   }
 
-  .heading{
-    text-align: center;
-    padding:2.5rem 0
-  }
-  
-  .heading span{
-    font-size: 3.5rem;
-    background:white;
-    color:black;
+  header .navbar a{
+    display: block;
     border-radius: .5rem;
-    padding:.2rem .1rem;
-    text-transform: uppercase;
+    padding:1.5rem;
+    margin:1.5rem 0;    
+    background:#222;
   }
-  
-  .heading span.space{
-    background:none;
+}
+
+@media (max-width:450px){
+
+  html{
+    font-size: 50%;
   }
 
-  section{
-    padding:2rem 9%;
-  }
-
-  @media (max-width:1200px){
-
-    html{
-      font-size: 55%;
-    }
-  
-  }
-  
-  @media (max-width:991px){
-  
-    header{
-      padding:2rem;
-    }
-  
-  
-    section{
-      padding:2rem;
-    }
-  
-  }
-  
-  @media (max-width:768px){
-  
-    #menu-bar{
-      display: initial;
-    }
-  
-    header .navbar{
-      position: fixed;
-      top:100%; right:0; left: 0;
-      background: #333;
-      border-top: .1rem solid rgba(255,255,255,.2);
-      padding:1rem 2rem;
-      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-  
-    header .navbar.active{
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
-  
-    header .navbar a{
-      display: block;
-      border-radius: .5rem;
-      padding:1.5rem;
-      margin:1.5rem 0;    
-      background:#222;
-    }
-  
-  
-  }
-  
-  @media (max-width:450px){
-  
-    html{
-      font-size: 50%;
-    }
-  
-    .heading span{
-      font-size: 2.5rem;
-    }
-  
-    .contact .row form .inputBox input{
-      width:100%;
-    }
-  
-  }
-  
+}

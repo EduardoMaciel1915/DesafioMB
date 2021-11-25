@@ -5,15 +5,7 @@ export default () => {
     return (
         <section className="eventos" id="eventos">
 
-            <h1 className="heading">
-                <span>E</span>
-                <span>V</span>
-                <span>E</span>
-                <span>N</span>
-                <span>T</span>
-                <span>O</span>
-                <span>S</span>
-            </h1>
+            <h1 className="titulos">EVENTOS</h1>
 
             <div className="box-container">
 

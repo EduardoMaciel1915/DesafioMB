@@ -5,25 +5,24 @@ export default () => {
     return (
             <section className="footer">
 
-                <div className="box-container">
+                <div className="container">
             
-                    <div className="box">
+                    <div className="item">
                         <h3>Sobre</h3>
                         <p>Site de compra e gestão de eventos presenciais ou online de empresas e instituições acadẽmicas.</p>
                     </div>
-                    <div className="box">
+                    <div className="item">
                         <h3>Localização</h3>
-                        <a href="#">Brail</a>
+                        <a href="#">Brasil</a>
             
                     </div>
-                    <div className="box">
+                    <div className="item">
                         <h3>Menu</h3>
                         <a href="#home">Home</a>
                         <a href="#eventos">Eventos</a>
                         <a href="#categorias">Categorias</a>
-                        <a href="#destaques">Destaques</a>
                     </div>
-                    <div className="box">
+                    <div className="item">
                         <h3>Siga-nos</h3>
                         <a href="https://www.facebook.com/profile.php?id=100003817660175">facebook</a>
                         <a href="https://www.instagram.com/executandu/">instagram</a>

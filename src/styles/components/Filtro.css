@@ -1,45 +1,40 @@
-:root{
-  --orange:#ffa500;
+.filter .linhas{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  align-items: center;
 }
 
-.filter .row{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-    align-items: center;
-  }
-  
-  .filter .row .image{
-    flex:1 1 40rem;
-  }
-  
-  .filter .row .image img{
-    width:100%;
-  }
-  
-  .filter .row form{
-    flex:1 1 40rem;
-    padding:2rem;
-    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
-    border-radius: .5rem;
-  }
-  
-  .filter .row form .inputBox{
-    padding:.5rem 0;
-  }
-  
-  .filter .row form .inputBox input{
-    width:100%;
-    padding:1rem;
-    border:.1rem solid rgba(0,0,0,.1);
-    font-size: 1.7rem;
-    color:#333;
-    text-transform: none;
-  }
-  
-  .filter .row form .inputBox h3{
-    font-size: 2rem;
-    padding:1rem 0;
-    color:#666;
-  }
-  
+.filter .linhas .image{
+  flex:1 1 40rem;
+}
+
+.filter .linhas .image img{
+  width:100%;
+}
+
+.filter .linhas form{
+  flex:1 1 40rem;
+  padding:2rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  border-radius: .5rem;
+}
+
+.filter .linhas form .inputBox{
+  padding:.5rem 0;
+}
+
+.filter .linhas form .inputBox input{
+  width:95%;
+  padding:1rem;
+  border:.1rem solid rgba(0,0,0,.1);
+  font-size: 1.7rem;
+  color:#333;
+  text-transform: none;
+}
+
+.filter .linhas form .inputBox h3{
+  font-size: 2rem;
+  padding:1rem 0;
+  color:#666;
+}

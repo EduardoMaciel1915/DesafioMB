@@ -8,7 +8,7 @@ export default () => {
             <div className="content">
                 <h3>Viva experiências únicas</h3>
                 <p>Aprenda e divirta-se com eventos presenciais e online, quando e onde quiser</p>
-                <a href="#" className="btn">Veja mais</a>
+                <a href="#categorias" className="btn">Veja mais</a>
             </div>
 
         </section>

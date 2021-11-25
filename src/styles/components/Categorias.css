@@ -2,38 +2,38 @@
   --orange:#ffa500;
 }
 
-.categorias .box-container{
+.categorias .categorias-items{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
     cursor:default;
   }
   
-.categorias .box-container .box{
+.categorias .categorias-items .item{
     flex: 1 1 30rem;
     border-radius: .5rem;
     padding:1rem;
     text-align: center;
   }
   
-.categorias .box-container .box i{
+.categorias .categorias-items .item i{
     padding:1rem;
     font-size: 5rem;
     color:var(--orange);
   }
   
-.categorias .box-container .box h3{
+.categorias .categorias-items .item h3{
     font-size: 2.5rem;
     color:#333;
   }
   
-.categorias .box-container .box p{
+.categorias .categorias-items .item p{
     font-size: 1.5rem;
     color:#666;
     padding:1rem 0;
   }
   
-.categorias .box-container .box:hover{
+.categorias .categorias-items .item:hover{
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
   }
 

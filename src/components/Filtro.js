@@ -5,23 +5,15 @@ export default () => {
     return (
             <section className="filter" id="filter">
 
-                <h1 className="heading">
-                    <span>f</span>
-                    <span>i</span>
-                    <span>l</span>
-                    <span>t</span>
-                    <span>r</span>
-                    <span>o</span>
+                <h1 className="titulos">FILTRO</h1>
             
-                </h1>
-            
-                <div className="row">
+                <div className="linhas">
             
                     <div className="image">
                         <img src="https://images.sympla.com.br/6052047fec82e.svg" alt=""/>
                     </div>
             
-                    <form action="">
+                    <form>
                         <div className="inputBox">
                             <h3>Cidade/ Estado</h3>
                             <input type="text" placeholder="Digite o endereço que deseja"/>
