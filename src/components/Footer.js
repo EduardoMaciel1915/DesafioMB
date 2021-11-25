@@ -13,7 +13,7 @@ export default () => {
                     </div>
                     <div className="item">
                         <h3>Localização</h3>
-                        <a href="#">Brasil</a>
+                        <a href="https://pt.wikipedia.org/wiki/Brasil">Brasil</a>
             
                     </div>
                     <div className="item">
@@ -32,7 +32,7 @@ export default () => {
             
                 </div>
             
-                <h1 className="credit"> Criado por <span> Eduardo Maciel </span> </h1>
+                <h1 className="credit"> Criado por Eduardo Maciel </h1>
         
         </section> 
     )

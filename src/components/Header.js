@@ -17,8 +17,7 @@ export default () => {
 
         document.addEventListener("scroll", () => {
             searchBtn.classList.remove('fa-times');
-            searchBar.classList.remove('active');
-            loginForm.classList.remove('active');   
+            searchBar.classList.remove('active');  
             menu.classList.remove('fa-times');
             navbar.classList.remove('active');
         });
@@ -37,7 +36,7 @@ export default () => {
             let tempoParaAparecer = 0;
             if(window.scrollY !== 0){
                 window.scrollTo(0, 0);
-                tempoParaAparecer = 800;
+                tempoParaAparecer = 3;
             }
             setTimeout(() => {
             loginForm.classList.add('active');
@@ -75,7 +74,7 @@ export default () => {
                         <i className="fas fa-user" id="login-btn"></i>
                     </div>
 
-                    <form action="" className="search-bar-container">
+                    <form className="search-bar-container">
                         <input type="search" id="search-bar" placeholder="pesquise aqui..."/>
                         <label for="search-bar" className="fas fa-search"></label>
                     </form>
