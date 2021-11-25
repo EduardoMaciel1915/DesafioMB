@@ -11,9 +11,9 @@
 
 ## 💻 Sobre o projeto
 
-O projeto <a href="https://ticket-com.vercel.app/">ticket.com</a>, criado durante o processo seletivo da MB Labs, tem como objetivo ser um site simples e interativo para busca e compra de ingressos para eventos de empresas e acadêmicos.
+O projeto <a href="https://desafio-mb.vercel.app/#">ticket.com</a>, criado durante o processo seletivo da MB Labs, tem como objetivo ser um site simples e interativo para busca e compra de ingressos para eventos de empresas e acadêmicos.
 
-Todos os dados dos catálogos de eventos como título, capa, e links foram extraídos do site <a href="https://www.sympla.com.br/?gclid=Cj0KCQiAhf2MBhDNARIsAKXU5GTvXApuvrpEvQQtgqdbXYS1zt41G18PyXDWFtFAXjf9wpKDX4ijpfUaAmyxEALw_wcB">Sympla</a>
+Todos os dados dos catálogos de eventos como título, capa, e links foram extraídos do site <a href="https://www.sympla.com.br/?gclid=Cj0KCQiAhf2MBhDNARIsAKXU5GTvXApuvrpEvQQtgqdbXYS1zt41G18PyXDWFtFAXjf9wpKDX4ijpfUaAmyxEALw_wcB">Sympla</a>.
 
 ### Funcionalidades
 
